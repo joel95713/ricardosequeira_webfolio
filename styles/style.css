@@ -1,0 +1,137 @@
+body {
+  background-color: #f3f3f6;
+}
+
+#navbarHeader {
+  background-color: rgba(255, 229, 56, 0.85);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tituloVideo {
+  text-align: left;
+  position: absolute;
+  top: 30vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 6vw !important;
+  opacity: 0.8;
+}
+
+.section1 {
+  background-color: rgba(255, 229, 56, 0.85);
+}
+
+.tituloProfile {
+  color: #1e1e1e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 30pt;
+  font-style: italic;
+}
+
+.titulosSection2 {
+  color: #1e1e1e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 30pt;
+}
+
+.subSkills {
+  color: #1e1e1e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  text-align: center;
+}
+
+.titulosSection3 {
+  font-style: italic;
+  background-color: rgba(255, 229, 56, 0.85);
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+#basic-addon1 {
+  font-style: italic;
+  background-color: rgba(255, 229, 56, 0.85);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.2vw;
+  text-transform: uppercase;
+}
+
+#textAreaExample5::placeholder {
+  color: #c5c5c5;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 1.2vw;
+}
+
+#buttonFTB {
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+  background-color: rgba(255, 229, 56, 0.85);
+}
+
+#navbarFooter {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+}
+
+.footerText {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+}
+
+.bird {
+  width: 2vw;
+}
+
+#skillsBox {
+}
+
+#toolsBox {
+}
+
+#iconMail {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 1.4vw;
+}
+
+.telefone {
+  width: 1.5vw;
+}
+
+#tituloRicardo {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3vw;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 50vw;
+  left: 40%;s
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+#titspanRicardo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.3vw;
+  font-style: italic;
+}
