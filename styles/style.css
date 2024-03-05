@@ -100,11 +100,6 @@ body {
   width: 2vw;
 }
 
-#skillsBox {
-}
-
-#toolsBox {
-}
 
 #iconMail {
   font-family: "Poppins", sans-serif;
@@ -124,8 +119,7 @@ body {
   text-align: left;
   position: absolute;
   top: 50vw;
-  left: 40%;s
-  transform: translate(-50%, -50%);
+  left: 40%;
   z-index: 2;
 }
 
