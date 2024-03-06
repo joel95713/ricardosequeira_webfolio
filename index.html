@@ -20,9 +20,17 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg" id="navbarHeader">
+      <!--                        NAVBAR                              -->
+
+      <nav class="navbar navbar-expand-lg p-0" id="navbarHeader">
         <div class="container-fluid">
-          <a class="navbar-brand mx-5" href="#">bio.</a>
+          <button class="text-button">
+            <span class="text"
+              >bio.
+              <p>bio.</p></span
+            >
+            <span class="rect"></span>
+          </button>
           <button
             class="navbar-toggler"
             type="button"
@@ -39,54 +47,62 @@
             class="collapse justify-content-between navbar-collapse"
             id="navbarNavDropdown"
           >
-            <ul class="navbar-nav mx-lg-auto mx-4 navbar-nav">
+            <ul class="mx-4 mx-lg-auto navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="#"
                   >ILLUSTRATION</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">DESIGN</a>
+                <a class="nav-link active px-4" href="#">DESIGN</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">UI/UX</a>
+                <a class="nav-link active px-4" href="#">UI/UX</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">MOTION</a>
+                <a class="nav-link active px-4" href="#">MOTION</a>
               </li>
             </ul>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link mx-5" href="#">
-                  mail me<img
-                    class="bird ms-2"
-                    src="SVG/Ativo 15.svg"
-                    alt="bird"
-                /></a>
+                <a class="nav-link mx-3" href="#">
+                  <img class="bird me-2" src="SVG/Ativo 15.svg" alt="bird" />
+                  <span class="align-bottom">mail me</span></a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+
     <main>
-      <section>
+      <!--                        VIDEO                              -->
+
+      <section class="section0">
         <div class="tituloVideo">
-          A MINHA <br />HISTÓRIA<br />É UMA BREVE<br />MEMÓRIA
+          MY STORY<br />IS A BRIEF<br />MEMORY
+          <div id="tituloRicardo" class="p-2">
+            RICARDO SEQUEIRA <span id="titspanRicardo">WEBFOLIO.</span>
+          </div>
         </div>
-        <div id="tituloRicardo" class="p-2">
-          RICARDO SEQUEIRA <span id="titspanRicardo">WEBFOLIO.</span>
-        </div>
+
         <video autoplay loop muted class="w-100">
           <source src="VideoBackground/Master1.mp4" type="video/mp4" />
         </video>
       </section>
+
+      <!--                        PROFILE                              -->
+
       <section class="container-fluid section1 px-5">
         <div class="m-auto">
           <div class="row">
-            <div class="col p-5 mx-5 tituloProfile">Profile</div>
+            <div class="col-sm-1 d-none d-sm-block ps-5 pb-5"></div>
+            <div class="col px-5 pt-5 pb-2 mx-5 tituloProfile">Profile</div>
+            <div class="col-sm-1 col d-none d-sm-block ps-5 pb-5"></div>
           </div>
           <div class="row px-5">
+            <div class="col-sm-1 col ps-5 d-none d-sm-block pb-5"></div>
             <div class="col ps-5 pb-5">
               Ricardo Sequeira is a Senior Designer with16 years of experience
               in his career. Currently working as a creative, developing
@@ -103,54 +119,59 @@
               where he plays various intruments and shares his zeal with other
               musicians.
             </div>
+            <div class="col-sm-1 col ps-5 pb-5 d-none d-sm-block"></div>
           </div>
         </div>
       </section>
+
+      <!--                        SKILL/TOOLS                              -->
+
       <section class="container-fluid px-5 section2 my-5">
         <div class="m-auto">
           <div class="px-5 row">
+            <div class="col-sm-1 col ps-5 pb-5 d-none d-sm-block"></div>
             <div class="col p-5 mx-5" id="skillsBox">
               <div class="mb-4 titulosSection2">Skills</div>
               <div class="g-5 row">
-                <div class="col-md-4 p-3">
+                <div class="col-md-4 p-1">
                   <img src="Icons/IconDesign.svg" alt="IconDesign" />
                   <div class="p-3 subSkills">Design</div>
                 </div>
-                <div class="col-md-4 p-3">
+                <div class="col-md-4 p-1">
                   <img src="Icons/IconIlustra.svg" alt="IconIlustra" />
-                  <div class="subSkills p-3">Ilustração</div>
+                  <div class="subSkills p-3">Illustration</div>
                 </div>
-                <div class="col-md-4 p-3">
+                <div class="col-md-4 p-1">
                   <img src="Icons/IconMotion.svg" alt="IconMotion" />
-                  <div class="subSkills p-3">Motion</div>
+                  <div class="subSkills p-3">Motion Graphics</div>
                 </div>
               </div>
               <div class="g-5 row">
-                <div class="col-md-4 p-3">
+                <div class="col-md-4 p-1">
                   <img src="Icons/IconBrand.svg" alt="IconBrand" />
                   <div class="subSkills p-3">Brand ID</div>
                 </div>
-                <div class="col-md-4 p-3">
+                <div class="col-md-4 p-1">
                   <img src="Icons/IconSocial.svg" alt="IconSocial" />
                   <div class="subSkills p-3">Social Media</div>
                 </div>
-                <div class="col-md-4 p-3">
+                <div class="col-md-4 p-1">
                   <img src="Icons/IconUI.svg" alt="IconUI" />
-                  <div class="subSkills p-3">UI/UX</div>
+                  <div class="subSkills p-0">UI/UX</div>
                 </div>
               </div>
               <div class="g-5 row">
-                <div class="col-md-4 p-3">
+                <div class="col-md-4 p-1">
                   <img src="Icons/IconCreative.svg" alt="IconCreative" />
-                  <div class="subSkills p-3">Creatividade</div>
+                  <div class="subSkills p-3">Creative Thinking</div>
                 </div>
-                <div class="col-md-4 p-3">
+                <div class="col-md-4 p-1">
                   <img src="Icons/IconStrategy.svg" alt="IconStrategy" />
-                  <div class="subSkills p-3">Stratégia</div>
+                  <div class="subSkills p-1">Communication Strategy</div>
                 </div>
-                <div class="col-md-4 p-3">
+                <div class="col-md-4 p-1">
                   <img src="Icons/IconMusic.svg" alt="IconMusic" />
-                  <div class="subSkills p-3">Composição</div>
+                  <div class="subSkills p-3">Musician Composition</div>
                 </div>
               </div>
             </div>
@@ -199,9 +220,13 @@
                 </div>
               </div>
             </div>
+            <div class="col-sm-1 col ps-5 pb-5 d-none d-sm-block"></div>
           </div>
         </div>
       </section>
+
+      <!--                        THE WAY OF THE MESSENGER                              -->
+
       <section class="my-5">
         <div class="container text-center">
           <div class="row align-items-start">
@@ -211,6 +236,9 @@
           </div>
         </div>
       </section>
+
+      <!--                        Five Pillars of Problem Solving                               -->
+
       <section>
         <div class="container p-5">
           <div class="row align-items-start p-5">
@@ -259,6 +287,9 @@
           </div>
         </div>
       </section>
+
+      <!--                        MAILBOX                               -->
+
       <section class="my-5">
         <div class="container p-5">
           <div class="row align-items-start px-5 m-auto">
@@ -306,7 +337,12 @@
         </div>
       </section>
     </main>
+
+    <!--                        RODAPÉ                               -->
+
     <footer class="mb-3">
+      <!--                        RODAPÉ/NAVBAR                               -->
+
       <nav class="navbar navbar-expand-lg my-4" id="navbarFooter">
         <div class="container-fluid">
           <div
@@ -335,6 +371,9 @@
           </div>
         </div>
       </nav>
+
+      <!--                        RODAPÉ/COPYRIGHT                               -->
+
       <div class="container align-content-center">
         <div class="d-md-flex d-grid row text-center">
           <div class="col d-grid d-sm-inline footerText text-nowrap">
@@ -352,6 +391,9 @@
         </div>
       </div>
     </footer>
+
+    <!--                        SCRIPTS/BOOTSTRAP                               -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -362,5 +404,6 @@
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
