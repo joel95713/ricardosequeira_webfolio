@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const navLink = document.querySelector('.nav-link');
+  const navLink = document.querySelector('.mailme');
 
   navLink.addEventListener('mouseenter', function () {
-    navLink.textContent = 'ILLUSTRATION';
+    navLink.textContent = 'fly Bird!';
   });
 
   navLink.addEventListener('mouseleave', function () {
-    navLink.textContent = 'ILLUSTRATION';
+    navLink.textContent = 'mail me';
   });
 });
