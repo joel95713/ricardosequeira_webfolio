@@ -24,25 +24,18 @@
 
       <nav class="navbar navbar-expand-lg p-0" id="navbarHeader">
         <div class="container-fluid">
-          <button class="text-button">
-            <span class="text"
-              >bio.
-              <p>bio.</p></span
-            >
-            <span class="rect"></span>
-          </button>
+          <a class="navbar-brand px-2" href="#">bio.</a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div
             class="collapse justify-content-between navbar-collapse"
             id="navbarNavDropdown"
@@ -66,7 +59,11 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link mx-3" href="#">
-                  <img class="bird me-2" src="SVG/Ativo 15.svg" alt="bird" />
+                  <img
+                    class="birdHeader me-2"
+                    src="SVG/Ativo 15.svg"
+                    alt="bird"
+                  />
                   <span class="align-bottom">mail me</span></a
                 >
               </li>
@@ -94,141 +91,246 @@
 
       <!--                        PROFILE                              -->
 
-      <section class="container-fluid section1 px-5">
+      <section class="section1 container-fluid">
         <div class="m-auto">
-          <div class="row">
-            <div class="col-sm-1 d-none d-sm-block ps-5 pb-5"></div>
-            <div class="col px-5 pt-5 pb-2 mx-5 tituloProfile">Profile</div>
-            <div class="col-sm-1 col d-none d-sm-block ps-5 pb-5"></div>
+          <div class="row justify-content-center">
+            <div class="col-md-3 pt-5 pb-2 tituloProfile">Profile</div>
+            <div
+              class="col-md-3 pt-5 pb-2 d-none d-md-block tituloProfile"
+            ></div>
           </div>
-          <div class="row px-5">
-            <div class="col-sm-1 col ps-5 d-none d-sm-block pb-5"></div>
-            <div class="col ps-5 pb-5">
-              Ricardo Sequeira is a Senior Designer with16 years of experience
-              in his career. Currently working as a creative, developing
+          <div class="justify-content-center row">
+            <div class="col-md-3 pb-5">
+              Ricardo Sequeira is a Senior Designer with 16 years of experience
+              in his career. <br />Currently working as a creative, developing
               projects in Video, Motion Graphics, UI/UX for APPlications and
               websites, Illustration and Graphic Design. He’s passionate about
               creating visual content that has the power to communicate values
               that include experiential, affective, meaningful and valuable
+              <span class="d-md-none"
+                >aspects of human interaction. <br />In his career he has had
+                the chance to work with international brands such as, Liga
+                Portuguesa de Futebol Profissional, TOMI World, Fnac, Zantia,
+                Eter9, among others. With an ardent passion for music, he owns a
+                small studio where he plays various intruments and shares his
+                zeal with other musicians.</span
+              >
             </div>
-            <div class="col pe-5 pb-5">
-              aspects of human interaction. In his career he has had the chance
-              to work with international brands such as, Liga Portuguesa de
-              Futebol Profissional, TOMI World, Fnac, Zantia, Eter9, among
+            <div class="col-md-3 pe-5 pb-5 d-none d-md-block">
+              aspects of human interaction. <br />In his career he has had the
+              chance to work with international brands such as, Liga Portuguesa
+              de Futebol Profissional, TOMI World, Fnac, Zantia, Eter9, among
               others. With an ardent passion for music, he owns a small studio
               where he plays various intruments and shares his zeal with other
               musicians.
             </div>
-            <div class="col-sm-1 col ps-5 pb-5 d-none d-sm-block"></div>
           </div>
         </div>
       </section>
 
       <!--                        SKILL/TOOLS                              -->
-
-      <section class="container-fluid px-5 section2 my-5">
-        <div class="m-auto">
-          <div class="px-5 row">
-            <div class="col-sm-1 col ps-5 pb-5 d-none d-sm-block"></div>
-            <div class="col p-5 mx-5" id="skillsBox">
-              <div class="mb-4 titulosSection2">Skills</div>
-              <div class="g-5 row">
-                <div class="col-md-4 p-1">
-                  <img src="Icons/IconDesign.svg" alt="IconDesign" />
-                  <div class="p-3 subSkills">Design</div>
+      <section>
+        <div class="container-fluid mt-5">
+          <div class="justify-content-center row">
+            <div class="col-md-3 caixa">
+              <div class="tituloSkills p-3">Skills</div>
+              <div class="d-flex flex-wrap" style="width: 400px">
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconDesign.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Graphic Design</p>
                 </div>
-                <div class="col-md-4 p-1">
-                  <img src="Icons/IconIlustra.svg" alt="IconIlustra" />
-                  <div class="subSkills p-3">Illustration</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconIlustra.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Illustration</p>
                 </div>
-                <div class="col-md-4 p-1">
-                  <img src="Icons/IconMotion.svg" alt="IconMotion" />
-                  <div class="subSkills p-3">Motion Graphics</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconMotion.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Motion Graphic</p>
                 </div>
-              </div>
-              <div class="g-5 row">
-                <div class="col-md-4 p-1">
-                  <img src="Icons/IconBrand.svg" alt="IconBrand" />
-                  <div class="subSkills p-3">Brand ID</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconBrand.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Brand ID</p>
                 </div>
-                <div class="col-md-4 p-1">
-                  <img src="Icons/IconSocial.svg" alt="IconSocial" />
-                  <div class="subSkills p-3">Social Media</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconSocial.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Social Media</p>
                 </div>
-                <div class="col-md-4 p-1">
-                  <img src="Icons/IconUI.svg" alt="IconUI" />
-                  <div class="subSkills p-0">UI/UX</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconUI.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">UI/UX</p>
                 </div>
-              </div>
-              <div class="g-5 row">
-                <div class="col-md-4 p-1">
-                  <img src="Icons/IconCreative.svg" alt="IconCreative" />
-                  <div class="subSkills p-3">Creative Thinking</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconUI.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">UI/UX</p>
                 </div>
-                <div class="col-md-4 p-1">
-                  <img src="Icons/IconStrategy.svg" alt="IconStrategy" />
-                  <div class="subSkills p-1">Communication Strategy</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconUI.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">UI/UX</p>
                 </div>
-                <div class="col-md-4 p-1">
-                  <img src="Icons/IconMusic.svg" alt="IconMusic" />
-                  <div class="subSkills p-3">Musician Composition</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconUI.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">UI/UX</p>
                 </div>
               </div>
             </div>
-            <div class="col p-5 mx-5" id="toolsBox">
-              <div class="mb-4 titulosSection2">Tools</div>
-              <div class="g-5 row">
-                <div class="col-md-4 p-3">
-                  <img src="Icons/IconPS.svg" alt="IconDesign" />
-                  <div class="p-3 subSkills">Photoshop</div>
+            <div class="col-md-3 caixa">
+              <div class="tituloSkills p-3">Tools</div>
+              <div class="d-flex flex-wrap" style="width: 400px">
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconPS.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Photoshop</p>
                 </div>
-                <div class="col-md-4 p-3">
-                  <img src="Icons/IconAI.svg" alt="IconAI" />
-                  <div class="subSkills p-3">Illustrator</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconAI.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Illustrator</p>
                 </div>
-                <div class="col-md-4 p-3">
-                  <img src="Icons/IconAE.svg" alt="IconMotion" />
-                  <div class="subSkills p-3">After Effects</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconAE.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">After Effects</p>
                 </div>
-              </div>
-              <div class="g-5 row">
-                <div class="col-md-4 p-3">
-                  <img src="Icons/IconPR.svg" alt="IconPR" />
-                  <div class="subSkills p-3">Premiere</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconPR.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Premiere</p>
                 </div>
-                <div class="col-md-4 p-3">
-                  <img src="Icons/IconFG.svg" alt="IconFG" />
-                  <div class="subSkills p-3">Figma</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconFG.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Figma</p>
                 </div>
-                <div class="col-md-4 p-3">
-                  <img src="Icons/IconSK.svg" alt="IconUI" />
-                  <div class="subSkills p-3">Spark</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconSK.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Spark</p>
                 </div>
-              </div>
-              <div class="g-5 row">
-                <div class="col-md-4 p-3">
-                  <img src="Icons/IconRP.svg" alt="IconRP" />
-                  <div class="subSkills p-3">IconBL</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconRP.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Reaper</p>
                 </div>
-                <div class="col-md-4 p-3">
-                  <img src="Icons/IconBL.svg" alt="IconBL" />
-                  <div class="subSkills p-3">IconBR</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconBL.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Blender</p>
                 </div>
-                <div class="col-md-4 p-3">
-                  <img src="Icons/IconBR.svg" alt="IconBR" />
-                  <div class="subSkills p-3">Brains</div>
+                <div class="card-icon">
+                  <i
+                    ><img
+                      src="Icons/IconBR.svg"
+                      alt="IconDesign"
+                      class="icon-class"
+                  /></i>
+                  <!-- Replace with actual icon -->
+                  <p class="py-3 subSkills">Brains</p>
                 </div>
               </div>
             </div>
-            <div class="col-sm-1 col ps-5 pb-5 d-none d-sm-block"></div>
           </div>
         </div>
+        <!-- Repeat the above div for each Card -->
       </section>
 
       <!--                        THE WAY OF THE MESSENGER                              -->
 
       <section class="my-5">
-        <div class="container text-center">
+        <div class="container-fluid text-center">
           <div class="row align-items-start">
             <div class="col">
               <img src="Anime/Way_1.gif" alt="IconBR" class="img-fluid" />
@@ -290,13 +392,13 @@
 
       <!--                        MAILBOX                               -->
 
-      <section class="my-5">
-        <div class="container p-5">
+      <section class="m-auto my-5">
+        <div class="container p-md-5">
           <div class="row align-items-start px-5 m-auto">
-            <div class="col">
-              <div class="input-group mb-3">
+            <div class="col col-lg-5 col-md-6 col-sm-12 m-auto">
+              <div class="bg-white input-group mb-3 rounded-5 m-auto">
                 <span
-                  class="input-group-text rounded-5 border-0 px-4"
+                  class="border-0 input-group-text p-sm-3 px-sm-4 rounded-5"
                   id="basic-addon1"
                   >Your Name:</span
                 >
@@ -310,13 +412,14 @@
             </div>
           </div>
           <div class="row align-items-start px-5">
-            <div class="col">
+            <div class="col-lg-8 col-md-10 m-auto">
               <div class="form-outline m-auto">
                 <textarea
-                  class="form-control rounded-5 border-0 p-4"
+                  class="form-control border-0 p-5"
                   placeholder="Tell me your story..."
                   id="textAreaExample5"
-                  rows="7"
+                  rows="15"
+                  style="border-radius: 80px; !important"
                 ></textarea>
                 <label class="form-label" for="textAreaExample5"></label>
               </div>
@@ -330,7 +433,11 @@
                 id="buttonFTB"
               >
                 FREE THE BIRD!
-                <img class="bird ms-2" src="SVG/Ativo 15.svg" alt="bird" />
+                <img
+                  class="bird ms-2 pointer-event"
+                  src="SVG/Ativo 15.svg"
+                  alt="bird"
+                />
               </button>
             </div>
           </div>
@@ -356,16 +463,16 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">DESIGN</a>
+                <a class="nav-link active pointer-event" href="#">DESIGN</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">UI/UX</a>
+                <a class="nav-link active pointer-event" href="#">UI/UX</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">MOTION</a>
+                <a class="nav-link active pointer-event" href="#">MOTION</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">MUSIC</a>
+                <a class="nav-link active pointer-event" href="#">MUSIC</a>
               </li>
             </ul>
           </div>
@@ -375,15 +482,20 @@
       <!--                        RODAPÉ/COPYRIGHT                               -->
 
       <div class="container align-content-center">
-        <div class="d-md-flex d-grid row text-center">
+        <div class="d-md-flex d-grid row text-center gap-3 gap-md-0">
           <div class="col d-grid d-sm-inline footerText text-nowrap">
             <span class="fw-bolder">My story is a brief memory. </span>RICARDO
             SEQUEIRA WEBFOLIO.
             <span class="fst-italic">All rights reserved.</span>
           </div>
           <div class="col footerText">
-            <span id="iconMail">@</span>zwringin@gmail.com
+            <img class="telefone ms-2" src="SVG/Ativo 2.svg" alt="telefone" />
+            zwringin@gmail.com
           </div>
+
+          <!-- <div class="col footerText">
+            <span id="iconMail">@</span>zwringin@gmail.com
+          </div> -->
           <div class="col footerText">
             <img class="telefone ms-2" src="SVG/Ativo 1.svg" alt="telefone" />
             (+351) 966 156 742

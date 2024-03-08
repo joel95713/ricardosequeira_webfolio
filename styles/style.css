@@ -1,8 +1,11 @@
 body {
-  background-color: #f3f3f6;
+  background-color: #f3f3f6 !important;
 }
 
-#navbarHeader{
+
+/* header */
+
+#navbarHeader {
   background-color: rgba(255, 229, 56, 0.85);
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -10,9 +13,15 @@ body {
   font-size: 0.8vw;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 0.9vw !important;
 }
+
+.birdHeader {
+  width: 1.4vw;
+}
+
+/* Video */
 
 .tituloVideo {
   text-align: left;
@@ -27,101 +36,8 @@ body {
   font-size: 6vw !important;
 }
 
-.section1 {
-  background-color: rgba(255, 229, 56, 0.85);
-}
-
 .section0 {
   background-color: rgba(255, 229, 56, 0.85);
-}
-
-.tituloProfile {
-  color: #1e1e1e;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 30pt;
-  font-style: italic;
-}
-
-.titulosSection2 {
-  color: #1e1e1e;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 30pt;
-}
-
-#skillsBox{
-  
-}
-
-
-.subSkills {
-  color: #1e1e1e;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 1vw;
-  text-align: center;
-}
-
-.titulosSection3 {
-  font-style: italic;
-  background-color: rgba(255, 229, 56, 0.85);
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  display: inline-block;
-  padding: 0 5px;
-}
-
-#basic-addon1 {
-  font-style: italic;
-  background-color: rgba(255, 229, 56, 0.85);
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 1.2vw;
-  text-transform: uppercase;
-}
-
-#textAreaExample5::placeholder {
-  color: #c5c5c5;
-  font-style: italic;
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-size: 1.2vw;
-}
-
-#buttonFTB {
-  font-style: italic;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 1.2vw;
-  background-color: rgba(255, 229, 56, 0.85);
-}
-
-#navbarFooter {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 1.2vw;
-}
-
-.footerText {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 1vw;
-}
-
-.bird {
-  width: 1.4vw;
-}
-
-
-#iconMail {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-size: 1.4vw;
-}
-
-.telefone {
-  width: 1.5vw;
 }
 
 #tituloRicardo {
@@ -147,11 +63,379 @@ body {
 }
 
 
+/* Profile */
+
+.section1 {
+  background-color: rgba(255, 229, 56, 0.85);
+}
+
+.tituloProfile {
+  color: #1e1e1e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 30pt;
+  font-style: italic;
+}
+
+/* SKILLS/TOOLS */
+
+.titulosSection2 {
+  color: #1e1e1e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 30pt;
+}
+
+.skillsIcons {
+  width: 5vw;
+}
+
+.caixa{
+  width: 400px;
+  height: 400px;
+}
+
+.icon-class {
+  width: 64px;
+}
+
+.card-icon {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
+.tituloSkills {
+  color: #1e1e1e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 2.5vw;
+  font-style: italic;
+}
+
+.subSkills {
+  color: #1e1e1e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  text-align: center;
+}
+
+
+/* Five Pillars of Problem Solving   */
+
+.titulosSection3 {
+  font-style: italic;
+  background-color: rgba(255, 229, 56, 0.85);
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+/* MAILBOX   */
+
+#basic-addon1 {
+  font-style: italic;
+  background-color: rgba(255, 229, 56, 0.85);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#textAreaExample5::placeholder {
+  color: #c5c5c5;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 1.2vw;
+}
+
+#buttonFTB {
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+  background-color: rgba(255, 229, 56, 0.85);
+}
+
+.bird {
+  width: 1.4vw;
+}
+
+
+/* FOOTER   */
+
+#navbarFooter {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+}
+
+.footerText {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+}
+
+
+#iconMail {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 1.4vw;
+}
+
+.telefone {
+  width: 1.5vw;
+}
 
 
 
 
 
+
+/* Media queries */
+
+
+@media (max-width: 576px) {
+
+
+  #tituloRicardo {
+    font-size: 3vw;
+  }
+
+  #titspanRicardo {
+    font-size: 3vw;
+  }
+
+  .titulosSection2 {
+    color: #1e1e1e;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 30pt;
+  }
+
+  .tituloSkills {
+    font-size: 5vw;
+  }
+
+  .subSkills {
+    font-size: 3vw;
+  }
+
+
+  #textAreaExample5::placeholder {
+    font-size: 3vw;
+  }
+
+  #buttonFTB {
+    font-size: 3vw;
+  }
+
+  .bird {
+    width: 4vw;
+  }
+
+  .footerText {
+    font-size: 3vw;
+  }
+
+
+  #iconMail {
+    font-size: 2vw;
+  }
+
+  .telefone {
+    width: 4vw;
+  }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+  #tituloRicardo {
+    font-size: 3vw;
+  }
+
+  #titspanRicardo {
+    font-size: 3vw;
+  }
+
+  .titulosSection2 {
+    font-size: 30pt;
+  }
+
+  .tituloSkills {
+    font-size: 5vw;
+  }
+
+  .subSkills {
+    font-size: 2.5vw;
+  }
+
+
+  #textAreaExample5::placeholder {
+    font-size: 3vw;
+  }
+
+  #buttonFTB {
+    font-size: 3vw;
+  }
+
+  .bird {
+    width: 4vw;
+  }
+
+  .footerText {
+    font-size: 2vw;
+  }
+
+  #iconMail {
+    font-size: 2.5vw;
+  }
+
+  .telefone {
+    width: 4vw;
+  }
+}
+
+
+@media (max-width: 992px) {
+
+.tituloSkills {
+    font-size: 4vw;
+  }
+
+  .subSkills {
+    font-size: 1.5vw;
+  }
+  
+
+  #textAreaExample5::placeholder {
+    font-size: 3vw;
+  }
+
+  #buttonFTB {
+    font-size: 2vw;
+  }
+
+  .bird {
+    width: 3vw;
+  }
+
+  .footerText {
+    font-size: 2vw;
+    padding: 10px;
+  }
+
+  #iconMail {
+    font-size: 2.5vw;
+  }
+
+  .telefone {
+    width: 4vw;
+  }
+
+
+
+}
+
+
+@media (max-width: 1200px) {
+
+.tituloSkills {
+    font-size: 4vw;
+  }
+
+  .subSkills {
+    font-size: 0.9vw;
+  }
+
+  .caixa{
+  width: 600px;
+  height: 600px;
+}
+
+.icon-class {
+  width: 54px;
+}
+
+.card-icon {
+  width: 90px;
+  height: 90px;
+}
+
+  #textAreaExample5::placeholder {
+    font-size: 2vw;
+  }
+
+  #buttonFTB {
+    font-size: 2vw;
+  }
+
+  .bird {
+    width: 3vw;
+  }
+
+  .footerText {
+    font-size: 1vw;
+    padding: 10px;
+  }
+
+  #iconMail {
+    font-size: 1vw;
+  }
+
+  .telefone {
+    width: 1vw;
+  }
+
+
+
+}
+
+@media (min-width: 1201px) {
+
+.tituloSkills {
+    font-size: 2vw;
+  }
+
+  .subSkills {
+    font-size: 0.7vw;
+  }
+ 
+
+  #textAreaExample5::placeholder {
+    font-size: 1vw;
+  }
+
+  #buttonFTB {
+    font-size: 1vw;
+  }
+
+  .bird {
+    width: 2vw;
+  }
+
+  .footerText {
+    font-size: 0.8vw;
+    padding: 10px;
+  }
+
+  #iconMail {
+    font-size: 1vw;
+  }
+
+  .telefone {
+    width: 1vw;
+  }
+
+
+
+}
 
 
 
@@ -253,8 +537,8 @@ body {
   background-color: white;
   transition: all 0.1s ease;
   left: 50%;
-  transform: translate(-50%, 0); 
-   z-index: 6;
+  transform: translate(-50%, 0);
+  z-index: 6;
 }
 
 .text-button:hover .text {
@@ -272,5 +556,3 @@ body {
   width: 0;
   opacity: 0;
 }
-
-
