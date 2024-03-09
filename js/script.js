@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const navLink = document.querySelector('.mailme');
+  const navLink = document.querySelector('#mailme');
 
   navLink.addEventListener('mouseenter', function () {
     navLink.textContent = 'fly Bird!';

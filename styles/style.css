@@ -48,31 +48,37 @@ body {
 
 
 /* NAVBAR - MOBILE */
+header {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  left: 0;
+  
+  z-index: 100;
+}
 
 
 #navbarHeader {
   background-color: rgba(255, 229, 56, 0.85);
+  padding: 0 !important;
 }
 
 .navTitulos{
   font-family: "Poppins", sans-serif !important;
   font-weight: 400 !important;
   font-style: normal;
-  font-size: 16px !important;
+  font-size: 12px !important;
 }
 
 .navTitulos:hover {
   font-weight: 600 !important;
-  font-size: 16px !important;
-}
-
-.navbar-brand {
-  font-size: 0.9vw !important;
+  font-size: 12px !important;
 }
 
 .birdHeader {
-  width: 1.2vw;
+  width: 16px;
 }
+
 
 /* Video */
 
@@ -142,11 +148,6 @@ body {
   width: 5vw;
 }
 
-.caixa {
-  width: 400px;
-  height: 400px;
-}
-
 .icon-class {
   width: 64px;
 }
@@ -200,54 +201,64 @@ body {
   font-style: italic;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
-  font-size: 1.2vw;
+    font-size: 16px !important;
 }
 
 #buttonFTB {
   font-style: italic;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 1.2vw;
+    font-size: 16px !important;
   background-color: rgba(255, 229, 56, 0.85);
 }
 
-.bird {
-  width: 1.4vw;
-}
+  .bird {
+    width: 26px !important;
+  }
 
 /* FOOTER   */
 
 #navbarFooter {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 1.2vw;
+  font-size: 16px !important;
+}
+
+#myStory{
+  font-size: 14px !important;
+}
+
+#allRights{
+  font-size: 14px !important;
 }
 
 .footerText {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 1vw;
+  font-weight: 400;
+  font-size: 16px !important;
 }
 
-#iconMail {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-size: 1.4vw;
+.iconsFooter {
+  width: 16px !important;
 }
 
-.telefone {
-  width: 1.5vw;
-}
 
-/* Media queries */
 
-@media (max-width: 576px) {
+
+/* - -------------------   Media queries ---------------------------- - */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+/* Video */
+
   #tituloRicardo {
-    font-size: 3vw;
+    font-size: 2.5vw;
+    width: max-content;
   }
 
   #titspanRicardo {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 
   .titulosSection2 {
@@ -257,40 +268,23 @@ body {
     font-size: 30pt;
   }
 
+/* Skill/Tools */
+
   .tituloSkills {
-    font-size: 5vw;
+    font-size: 30px !important;
   }
 
   .subSkills {
-    font-size: 3vw;
+    font-size: 11px !important;
   }
 
-  #textAreaExample5::placeholder {
-    font-size: 3vw;
-  }
-
-  #buttonFTB {
-    font-size: 3vw;
-  }
-
-  .bird {
-    width: 4vw;
-  }
-
-  .footerText {
-    font-size: 3vw;
-  }
-
-  #iconMail {
-    font-size: 2vw;
-  }
-
-  .telefone {
-    width: 4vw;
-  }
 }
 
-@media (max-width: 768px) {
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+  /* Video */
+  
   #tituloRicardo {
     font-size: 3vw;
   }
@@ -303,81 +297,37 @@ body {
     font-size: 30pt;
   }
 
+  /* Skill/Tools */
+
   .tituloSkills {
-    font-size: 5vw;
+    font-size: 30px !important;
   }
 
   .subSkills {
-    font-size: 2.5vw;
+    font-size: 11px !important;
   }
 
-  #textAreaExample5::placeholder {
-    font-size: 3vw;
-  }
 
-  #buttonFTB {
-    font-size: 3vw;
-  }
+/* // Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { */
 
-  .bird {
-    width: 4vw;
-  }
-
-  .footerText {
-    font-size: 2vw;
-  }
-
-  #iconMail {
-    font-size: 2.5vw;
-  }
-
-  .telefone {
-    width: 4vw;
-  }
-}
-
-@media (max-width: 992px) {
-  .tituloSkills {
-    font-size: 4vw;
+ .tituloSkills {
+    font-size: 30px !important;
   }
 
   .subSkills {
-    font-size: 1.5vw;
+    font-size: 11px !important;
   }
 
-  #textAreaExample5::placeholder {
-    font-size: 3vw;
-  }
 
-  #buttonFTB {
-    font-size: 2vw;
-  }
-
-  .bird {
-    width: 3vw;
-  }
-
-  .footerText {
-    font-size: 2vw;
-    padding: 10px;
-  }
-
-  #iconMail {
-    font-size: 2.5vw;
-  }
-
-  .telefone {
-    width: 4vw;
-  }
-}
-
-@media (max-width: 1200px) {
-  .tituloSkills {
-    font-size: 4vw;
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+.tituloSkills {
+    font-size: 30px !important;
   }
 
   .subSkills {
-    font-size: 0.9vw;
+    font-size: 11px !important;
   }
 
   .caixa {
@@ -393,64 +343,17 @@ body {
     width: 90px;
     height: 90px;
   }
-
-  #textAreaExample5::placeholder {
-    font-size: 2vw;
-  }
-
-  #buttonFTB {
-    font-size: 2vw;
-  }
-
-  .bird {
-    width: 3vw;
-  }
-
-  .footerText {
-    font-size: 1vw;
-    padding: 10px;
-  }
-
-  #iconMail {
-    font-size: 1vw;
-  }
-
-  .telefone {
-    width: 1vw;
-  }
+  
 }
 
-@media (min-width: 1201px) {
-  .tituloSkills {
-    font-size: 2vw;
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+.tituloSkills {
+    font-size: 30px !important;
   }
 
   .subSkills {
-    font-size: 0.7vw;
+    font-size: 11px !important;
   }
 
-  #textAreaExample5::placeholder {
-    font-size: 1vw;
-  }
-
-  #buttonFTB {
-    font-size: 1vw;
-  }
-
-  .bird {
-    width: 2vw;
-  }
-
-  .footerText {
-    font-size: 0.8vw;
-    padding: 10px;
-  }
-
-  #iconMail {
-    font-size: 1vw;
-  }
-
-  .telefone {
-    width: 1vw;
-  }
 }
